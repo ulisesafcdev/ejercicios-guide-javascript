@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    /* margin: 0; */
+    background-color: #232D3F;
+}
+
+.header, .main, .footer, hr {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    color: #f3f3f3;
+}
+
+a {
+    color: #D9ACF5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header__title > h1 {
+    color: #F8DE22;
+}
+
+.container__title > h2 {
+    color: #F8DE22;
+}
+
+.card__title > h3 {
+    color: #FFFFFF;
+}
+
+.card__body > ul {
+    list-style: none;
+}
+
+.badge {
+    background-color: #98D8AA;
+    color: #232D3F;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+#nav-section {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    display: flex;
+    background-color: #232D3F;
+    /* border-bottom: 1px solid #f3f3f3; */
+    box-shadow: 0px 20px 32px -18px rgba(0,0,0,0.2);
+}
